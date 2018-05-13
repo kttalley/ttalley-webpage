@@ -1,16 +1,40 @@
 
 
-#education-title {
+#education-title h3{
     text-align: right;
+    border-bottom: 1px solid black;
+    margin: 28px 20px 18px 14px;
+    
 }
 
+#education-title p{
+    /* text-align: right;
+    border-bottom: 1px solid black;
+    margin: 28px 20px 18px 14px; */
+    font-family: 'consolas';
+}
+
+#awards-fellowships h3{
+    text-align: left;
+    margin: 28px 20px 18px 14px;
+    border-bottom: 1px solid black;
+}
+
+
+#intro{
+    padding-right: 28px;
+    padding-bottom: 28px;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+}
 body {
     /* display: flex; */
-    overflow: hidden;
+    /* overflow: hidden; */
+        overflow-x: hidden;
 }
 
 p {
-    justify-content: center;
+    justify-content: left;
     font-size: 18px;
     margin: 28px 20px 18px 20px;
 }
@@ -27,11 +51,12 @@ p {
 
 .header h1{
     margin: 0% 2% 2% 2%;
+    text-align: left; 
 
 }
 .header h2{
-    margin: 0 24px 2% 2%;
-
+    margin: 0 28px 2% 2%;
+    text-align: right;
 }
 .row{
     margin: 18px, 18px, 20px, 20px;
