@@ -1,0 +1,46 @@
+
+
+#education-title {
+    text-align: right;
+}
+
+body {
+    /* display: flex; */
+    overflow: hidden;
+}
+
+p {
+    justify-content: center;
+    font-size: 18px;
+    margin: 28px 20px 18px 20px;
+}
+#headerwrap {
+    background-color: rgba(255,225,225);
+    /* width: 100%; */
+    /* padding: 200px; */
+    /* margin: 2% 2% 5% 2%; */
+    /* position:fixed; */
+    /* z-index: 999; */
+}
+
+
+
+.header h1{
+    margin: 0% 2% 2% 2%;
+
+}
+.header h2{
+    margin: 0 24px 2% 2%;
+
+}
+.row{
+    margin: 18px, 18px, 20px, 20px;
+}
+
+.col-sm-3 {
+    margin: 28px 0px 20px 28px;
+}
+.col-sm-9{
+    background-color: green;
+    padding: 18px, 18px, 20px, 20px;
+} 
