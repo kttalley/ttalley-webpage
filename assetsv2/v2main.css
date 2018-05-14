@@ -3,7 +3,7 @@
 #education-title h3{
     text-align: right;
     border-bottom: 1px solid black;
-    margin: 28px 20px 18px 14px;
+    margin: 28px 20px 0px 0px;
     
 }
 
@@ -16,10 +16,31 @@
 
 #awards-fellowships h3{
     text-align: left;
-    margin: 28px 20px 18px 14px;
+    margin: 28px 20px 14px 14px;
     border-bottom: 1px solid black;
 }
+#awards-fellowships p{
+    font-family: 'consolas';
+    justify-content: right;
+}
+#academic-positions h3{
+    text-align: right;
+}
+#academic-positions p{
+    text-align: right;
+}
+#prof-org h3{
+    text-align: right;
+    margin: 28px 20px 14px 14px;
+    border-bottom: 1px solid black;
 
+}
+#students h3{
+    text-align: left;
+    margin: 28px 20px 14px 14px;
+    border-bottom: 1px solid black;
+
+}
 
 #intro{
     padding-right: 28px;
@@ -40,23 +61,27 @@ p {
 }
 #headerwrap {
     background-color: rgba(255,225,225);
-    /* width: 100%; */
-    /* padding: 200px; */
-    /* margin: 2% 2% 5% 2%; */
-    /* position:fixed; */
-    /* z-index: 999; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+    padding-bottom: 7px;
 }
 
 
-
+.header {
+    /* position: fixed; */
+}
 .header h1{
     margin: 0% 2% 2% 2%;
     text-align: left; 
+    font-family: 'consolas';
 
 }
 .header h2{
     margin: 0 28px 2% 2%;
-    text-align: right;
+    text-align: left;
+    font-family: 'consolas';
 }
 .row{
     margin: 18px, 18px, 20px, 20px;
