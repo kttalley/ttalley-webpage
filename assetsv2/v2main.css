@@ -7,6 +7,19 @@
     
 }
 
+p {
+    -webkit-text-fill-color: rgb(85,85,85);
+    justify-content: left;
+    font-size: 18px;
+    margin: 28px 20px 18px 20px;
+}
+
+h3 {
+    -webkit-text-fill-color: rgb(45,45,45);
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
 #education-title p{
     /* text-align: right;
     border-bottom: 1px solid black;
@@ -35,13 +48,31 @@
     border-bottom: 1px solid black;
 
 }
-#students h3{
+#students-left h3{
     text-align: left;
     margin: 28px 20px 14px 14px;
     border-bottom: 1px solid black;
 
 }
+#students-left a{
+    -webkit-text-fill-color: black;
+    text-align: center;
+}
+#students-right h3{
+    text-align: right;
+    margin: 28px 20px 14px 14px;
+    border-bottom: 1px solid black;
 
+}
+#students-right a{
+    -webkit-text-fill-color: black;
+    text-align: center;
+}
+
+#students-right a:hover{
+    -webkit-text-fill-color: rgb(43, 153, 226);
+    text-align: center;
+}
 #intro{
     padding-right: 28px;
     padding-bottom: 28px;
@@ -54,11 +85,7 @@ body {
         overflow-x: hidden;
 }
 
-p {
-    justify-content: left;
-    font-size: 18px;
-    margin: 28px 20px 18px 20px;
-}
+    
 #headerwrap {
     background-color: rgba(255,225,225);
     position: fixed;
